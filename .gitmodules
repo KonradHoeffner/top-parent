@@ -1,0 +1,6 @@
+[submodule "backend"]
+	path = backend
+	url = git@github.com:KonradHoeffner/top-backend.git
+[submodule "api"]
+	path = api
+	url = git@github.com:KonradHoeffner/top-api.git
