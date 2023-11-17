@@ -1,9 +1,15 @@
-[submodule "backend"]
-	path = backend
-	url = git@github.com:KonradHoeffner/top-backend.git
-[submodule "api"]
-	path = api
+[submodule "top-api"]
+	path = top-api
 	url = git@github.com:KonradHoeffner/top-api.git
-[submodule "query"]
-	path = query
+	branch = main
+[submodule "top-backend"]
+	path = top-backend
+	url = git@github.com:KonradHoeffner/top-backend.git
+	branch = master
+[submodule "top-phenotypic-query"]
+	path = top-phenotypic-query
 	url = git@github.com:KonradHoeffner/top-phenotypic-query.git
+	branch = main
+[submodule "top-document-query"]
+	path = top-document-query
+	url = git@github.com:Onto-Med/top-document-query.git

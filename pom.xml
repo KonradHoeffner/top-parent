@@ -10,9 +10,10 @@
 	<packaging>pom</packaging>
 	<name>parent</name>
 	<modules>
-		<module>api</module>
-		<module>backend</module>
-		<module>query</module>
+		<module>top-api</module>
+		<module>top-backend</module>
+		<module>top-phenotypic-query</module>
+		<module>top-document-query</module>
 	</modules>
 
 	<properties>
@@ -20,23 +21,13 @@
 		<maven.compiler.source>11</maven.compiler.source>
 		<maven.compiler.target>11</maven.compiler.target>
 		<java.version>11</java.version>
+		<parent.version>1.0-SNAPSHOT</parent.version>
+		<api.version>0.9.4-module</api.version>
+		<backend.version>0.7.0-module</backend.version>
+		<phenotypic-query.version>0.7.0-module</phenotypic-query.version>
+		<document-query.version>0.7.3-module</document-query.version>
 	</properties>
-   <!-- 
-	<repositories>
-        <repository>
-            <id>top-api</id>
-            <url>https://maven.pkg.github.com/onto-med/top-api</url>
-        </repository>
-        <repository>
-            <id>top-phenotypic-query</id>
-            <url>https://maven.pkg.github.com/onto-med/top-phenotypic-query</url>
-        </repository>
-        <repository>
-            <id>top-document-query</id>
-            <url>https://maven.pkg.github.com/onto-med/top-document-query</url>
-        </repository>
-    </repositories>
--->
+
 <!--
 	<dependencies>
 		<dependency>
