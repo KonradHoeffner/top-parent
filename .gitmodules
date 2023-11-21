@@ -13,6 +13,3 @@
 [submodule "top-document-query"]
 	path = top-document-query
 	url = git@github.com:Onto-Med/top-document-query.git
-[submodule "top-frontend"]
-	path = top-frontend
-	url = git@github.com:KonradHoeffner/top-frontend.git
